@@ -13,8 +13,7 @@ Format: CSV
 
 Description: The dataset contains information such as dates, locations, road conditions, and other factors related to traffic accidents.
 
-
-> Note: The full dataset may not be included in this repository due to size limitations.
+Dataset Link: https://drive.google.com/file/d/1r8EhD7sdkFjap78wLj76f8t2fTuN6owZ/view?usp=sharing
 
 
 
