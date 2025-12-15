@@ -82,7 +82,7 @@ How to Run the Project
 
 
 
-git clone https://github.com/USERNAME/road-collisions-ml.git
+git clone https://github.com/Saadawy-AI/road-collisions-ml.git
 
 2. Install dependencies
 
