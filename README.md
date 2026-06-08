@@ -5,6 +5,9 @@
   <img src="https://img.shields.io/badge/CatBoost-Best_Model-FF6600?style=for-the-badge&logoColor=white"/>
   <img src="https://img.shields.io/badge/Accuracy-92.6%25-27AE60?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+  <a href="https://saadawy-ai-road-collision-severity-app-app-h222ed.streamlit.app/">
+    <img src="https://img.shields.io/badge/Live_Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+  </a>
 </p>
 
 ---
@@ -15,6 +18,16 @@ This project analyzes real-world road collision data to **predict accident sever
 The pipeline covers end-to-end ML workflow: data cleaning, exploratory analysis, feature engineering, model training, and evaluation.
 
 **Goal:** Help identify key risk factors behind road accidents and predict outcomes to support traffic safety decisions.
+
+---
+
+## 🌐 Live Demo
+
+> Try the interactive dashboard — no installation needed!
+
+**👉 [Launch Streamlit App](https://saadawy-ai-road-collision-severity-app-app-h222ed.streamlit.app/)**
+
+Enter collision details (location, time, day type) and get an instant severity prediction with probability breakdown.
 
 ---
 
@@ -38,6 +51,7 @@ The pipeline covers end-to-end ML workflow: data cleaning, exploratory analysis,
 | Visualization   | Matplotlib, Seaborn                        |
 | Modeling        | Scikit-learn, CatBoost                     |
 | Environment     | Jupyter Notebook                           |
+| Deployment      | Streamlit Cloud                            |
 
 ---
 
