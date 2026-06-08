@@ -1,105 +1,139 @@
-Road Collisions Prediction Project 🚦
+# 🚦 Road Collisions Prediction — ML Project
 
-Overview
-
-This project focuses on analyzing road collision data and building a machine learning model to predict accident-related outcomes.
-The goal is to extract insights from the data, understand key factors behind road accidents, and evaluate the performance of predictive models.
-
-Dataset
-
-Type: Road Collisions Dataset
-
-Format: CSV
-
-Description: The dataset contains information such as dates, locations, road conditions, and other factors related to traffic accidents.
-
-Dataset Link: https://drive.google.com/file/d/1r8EhD7sdkFjap78wLj76f8t2fTuN6owZ/view?usp=sharing
-
-
-
-Technologies & Tools
-
-Python
-
-Pandas & NumPy
-
-Matplotlib & Seaborn
-
-Scikit-learn
-
-XGBoost
-
-Jupyter Notebook
-
-
-Project Workflow
-
-1. Data Cleaning and Preprocessing
-
-
-2. Exploratory Data Analysis (EDA)
-
-
-3. Feature Engineering
-
-
-4. Model Training
-
-
-5. Model Evaluation
-
-
-
-Models Used
-
-XGBoost
-
-Other baseline machine learning models for comparison
-
-
-Results
-
-Best Model: XGBoost
-
-Model Performance: Accuracy and evaluation metrics are discussed inside the notebook
-
-
-Repository Structure
-
-road-collisions-ml/
-│
-├── dataset/            # Dataset files or samples
-├── notebooks/          # Jupyter notebooks
-├── images/             # EDA plots and figures
-├── README.md           # Project documentation
-├── requirements.txt    # Project dependencies
-└── .gitignore          # Ignored files
-
-How to Run the Project
-
-1. Clone the repository
-
-
-
-git clone https://github.com/Saadawy-AI/road-collisions-ml.git
-
-2. Install dependencies
-
-
-
-pip install -r requirements.txt
-
-3. Open the notebook
-
-
-jupyter notebook
-
-Author
-
-Mohamed Saadawy
-
-
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/XGBoost-Best_Model-FF6600?style=for-the-badge&logo=xgboost&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Accuracy-92.6%25-27AE60?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+</p>
 
 ---
 
-This project is part of my learning journey in Data Science and Machine Learning.
+## 📌 Overview
+
+This project analyzes real-world road collision data to **predict accident severity** using machine learning.  
+The pipeline covers end-to-end ML workflow: data cleaning, exploratory analysis, feature engineering, model training, and evaluation.
+
+**Goal:** Help identify key risk factors behind road accidents and predict outcomes to support traffic safety decisions.
+
+---
+
+## 📂 Dataset
+
+| Property    | Details                                     |
+|-------------|---------------------------------------------|
+| Format      | CSV                                         |
+| Features    | Dates, locations, road conditions, weather, vehicle types, and more |
+| Target      | Accident severity (3 classes: 0, 1, 2)      |
+| Source      | [Download from Google Drive](https://drive.google.com/file/d/1r8EhD7sdkFjap78wLj76f8t2fTuN6owZ/view?usp=sharing) |
+
+---
+
+## 🛠️ Technologies & Tools
+
+| Category        | Tools                                      |
+|-----------------|--------------------------------------------|
+| Language        | Python 3.10+                               |
+| Data Processing | Pandas, NumPy                              |
+| Visualization   | Matplotlib, Seaborn                        |
+| Modeling        | Scikit-learn, XGBoost                      |
+| Environment     | Jupyter Notebook                           |
+
+---
+
+## 🔄 Project Workflow
+
+```
+1. Data Cleaning & Preprocessing
+       ↓
+2. Exploratory Data Analysis (EDA)
+       ↓
+3. Feature Engineering
+       ↓
+4. Model Training (Multiple Models)
+       ↓
+5. Model Evaluation & Comparison
+```
+
+---
+
+## 📊 Results
+
+### Best Model: XGBoost
+
+| Metric           | Score  |
+|------------------|--------|
+| **Accuracy**     | **92.6%** |
+| Weighted F1-Score | 0.92  |
+| Macro F1-Score   | 0.88   |
+| Weighted Precision | 0.93 |
+| Weighted Recall  | 0.93   |
+
+### Classification Report (Per Class)
+
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0 (Minor)  | 1.00 | 0.75 | 0.85 | 205    |
+| 1 (Serious) | 1.00 | 0.70 | 0.82 | 3,274  |
+| 2 (Slight) | 0.91 | 1.00 | **0.95** | 10,534 |
+| **Weighted Avg** | **0.93** | **0.93** | **0.92** | 14,013 |
+
+> 🔑 The model achieves **perfect precision (1.00)** on classes 0 and 1, and **perfect recall (1.00)** on the dominant class 2.
+
+---
+
+## 🗂️ Repository Structure
+
+```
+Road-Collisions-ML/
+│
+├── Dataset/          # Dataset files
+├── Notebook/         # Jupyter notebooks (EDA + Modeling)
+├── Images/           # EDA plots and figures
+├── README.md         # Project documentation
+└── requirements.txt  # Python dependencies
+```
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Saadawy-AI/Road-Collisions-ML.git
+cd Road-Collisions-ML
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Download the dataset
+Place the CSV file inside the `Dataset/` folder.  
+[📥 Download Dataset](https://drive.google.com/file/d/1r8EhD7sdkFjap78wLj76f8t2fTuN6owZ/view?usp=sharing)
+
+### 4. Open the notebook
+```bash
+jupyter notebook
+```
+Navigate to `Notebook/` and run the cells in order.
+
+---
+
+## 🔍 Key Insights
+
+- Road conditions, time of day, and vehicle type are among the strongest predictors of accident severity.
+- The dataset is **highly imbalanced** (class 2 dominates with ~75% of samples), which influenced model selection and evaluation strategy.
+- XGBoost outperformed baseline models by handling feature interactions and class imbalance more effectively.
+
+---
+
+## 👤 Author
+
+**Muhammad Saadawy**  
+📎 [GitHub](https://github.com/Saadawy-AI) · [LinkedIn](https://linkedin.com/in/muhammad-saadawy) · [Portfolio](https://saadawy-ai.github.io/My-Portfolio/)
+
+---
+
+> *This project is part of my Data Science & Machine Learning portfolio.*
