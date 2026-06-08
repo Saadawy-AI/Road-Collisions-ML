@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/XGBoost-Best_Model-FF6600?style=for-the-badge&logo=xgboost&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CatBoost-Best_Model-FF6600?style=for-the-badge&logoColor=white"/>
   <img src="https://img.shields.io/badge/Accuracy-92.6%25-27AE60?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
 </p>
@@ -36,7 +36,7 @@ The pipeline covers end-to-end ML workflow: data cleaning, exploratory analysis,
 | Language        | Python 3.10+                               |
 | Data Processing | Pandas, NumPy                              |
 | Visualization   | Matplotlib, Seaborn                        |
-| Modeling        | Scikit-learn, XGBoost                      |
+| Modeling        | Scikit-learn, CatBoost                     |
 | Environment     | Jupyter Notebook                           |
 
 ---
@@ -59,7 +59,7 @@ The pipeline covers end-to-end ML workflow: data cleaning, exploratory analysis,
 
 ## 📊 Results
 
-### Best Model: XGBoost
+### Best Model: CatBoost
 
 | Metric           | Score  |
 |------------------|--------|
@@ -125,13 +125,13 @@ Navigate to `Notebook/` and run the cells in order.
 
 - Road conditions, time of day, and vehicle type are among the strongest predictors of accident severity.
 - The dataset is **highly imbalanced** (class 2 dominates with ~75% of samples), which influenced model selection and evaluation strategy.
-- XGBoost outperformed baseline models by handling feature interactions and class imbalance more effectively.
+- CatBoost outperformed baseline models by natively handling categorical features and class imbalance more effectively.
 
 ---
 
 ## 👤 Author
 
-**Muhammad Saadawy**  
+**Mohamed Saadawy**  
 📎 [GitHub](https://github.com/Saadawy-AI) · [LinkedIn](https://linkedin.com/in/muhammad-saadawy) · [Portfolio](https://saadawy-ai.github.io/My-Portfolio/)
 
 ---
