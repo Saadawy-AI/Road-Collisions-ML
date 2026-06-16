@@ -106,6 +106,58 @@ Enter collision details (location, time, day type) and get an instant severity p
 
 ---
 
+## 📈 Model Visualizations
+
+### Collision Severity Distribution
+
+Understanding the distribution of collision severity classes reveals the significant class imbalance present in the dataset.
+
+![Collision Severity Distribution](Images/Collision%20Severity%20Distribution.png)
+
+---
+
+### Correlation Heatmap
+
+Correlation analysis was used to identify relationships between numerical features and detect potential dependencies.
+
+![Correlation Heatmap](Images/Correlation%20Heatmap.png)
+
+---
+
+### Distribution of Important Features
+
+Visualization of the most influential features used by the model to predict collision severity.
+
+![Distribution of Important Features](Images/Distribution%20of%20Important%20Features.png)
+
+---
+
+### Learning Curve
+
+The learning curve demonstrates the model's generalization performance and helps identify potential overfitting or underfitting issues.
+
+![Learning Curve](Images/Learning%20Curve.png)
+
+---
+
+### ROC Curve
+
+Multi-class ROC analysis evaluating the model's ability to distinguish between different collision severity classes.
+
+![ROC Curve](Images/ROC%20Curve.png)
+
+---
+
+### Precision-Recall Curve
+
+Precision-Recall analysis provides a more informative evaluation for the imbalanced dataset, especially for minority classes.
+
+![Precision-Recall Curve](Images/Precision-Recall%20Curve.png)
+
+---
+
+---
+
 ## 🗂️ Repository Structure
 
 ```
