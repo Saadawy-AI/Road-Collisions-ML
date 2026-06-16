@@ -230,6 +230,12 @@ Navigate to `Notebook/` and run the cells in order.
 
 ---
 
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
 ## 👤 Author
 
 **Mohamed Saadawy**  
