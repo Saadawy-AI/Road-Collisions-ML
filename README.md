@@ -74,9 +74,13 @@ Enter collision details (location, time, day type) and get an instant severity p
        ↓
 3. Feature Engineering
        ↓
-4. Model Training (Multiple Models)
+4. Model Training
        ↓
-5. Model Evaluation & Comparison
+5. Hyperparameter Tuning
+       ↓
+6. Model Evaluation
+       ↓
+7. Model Deployment
 ```
 
 ---
