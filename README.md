@@ -14,10 +14,20 @@
 
 ## 📌 Overview
 
-This project analyzes real-world road collision data to **predict accident severity** using machine learning.  
-The pipeline covers end-to-end ML workflow: data cleaning, exploratory analysis, feature engineering, model training, and evaluation.
+This project analyzes real-world road collision data to predict accident severity using Machine Learning.
 
-**Goal:** Help identify key risk factors behind road accidents and predict outcomes to support traffic safety decisions.
+The project covers the complete Data Science workflow:
+
+Data Cleaning & Preprocessing
+Exploratory Data Analysis (EDA)
+Feature Engineering
+Model Training & Comparison
+Hyperparameter Tuning
+Model Evaluation
+Deployment using Streamlit
+🎯 Objective
+
+Predict collision severity and identify the most important factors contributing to road accidents to support traffic safety decision-making.
 
 ---
 
@@ -25,7 +35,7 @@ The pipeline covers end-to-end ML workflow: data cleaning, exploratory analysis,
 
 > Try the interactive dashboard — no installation needed!
 
-**👉 [Launch Streamlit App](https://saadawy-ai-road-collision-severity-app-app-h222ed.streamlit.app/)**
+**👉 [Launch Streamlit App](https://road-collision-severity-app.streamlit.app/)**
 
 Enter collision details (location, time, day type) and get an instant severity prediction with probability breakdown.
 
