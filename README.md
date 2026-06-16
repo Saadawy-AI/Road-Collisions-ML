@@ -217,6 +217,15 @@ Navigate to `Notebook/` and run the cells in order.
 
 ---
 
+## ⚠️ Challenges
+
+- Handling a highly imbalanced dataset where the majority of collisions belong to the Slight severity class.
+- Managing categorical features with varying cardinality levels.
+- Engineering meaningful temporal features from raw date and time attributes.
+- Maintaining strong model performance while reducing overfitting risk.
+
+---
+
 ## 👤 Author
 
 **Mohamed Saadawy**  
