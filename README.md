@@ -106,6 +106,18 @@ Enter collision details (location, time, day type) and get an instant severity p
 
 ---
 
+## 📱 Application Preview
+
+### Prediction Dashboard
+
+![Prediction Dashboard](Images/Prediction%20Insights%20Dashboard.png)
+
+### Sample Prediction Output
+
+![Prediction Output](Images/Model%20Prediction%20Output.png)
+
+---
+
 ## 📈 Model Visualizations
 
 ### Collision Severity Distribution
